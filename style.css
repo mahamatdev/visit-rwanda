@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    height: 70px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.fLink, .sLink {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.sLink {
+    padding-right: 50px;
+}
+.links {
+    padding-left: 50px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.Tourism {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+.Tourism p {
+    margin-top: 35px;
+    font-size: 20px;
+}
+hr {
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.image1 {
+    display: flex;
+    margin-top: 100px;
+}
+img {
+    width: 630px;
+    height: 500px;
+}
+.para1 {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.p1  {
+    padding-top: 15px;
+}
+.p2 {
+    padding-top: 30px;
+}
+.btn1 {
+    background-color: rgb(37, 14, 58);
+    color: white;
+    height: 45px;
+    width: 180px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.section4 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 30px;
+    text-align: center;
+}
+.section4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+.s4 h4 {
+    margin-bottom: 15px; 
+}
+.section5 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.s4 img {
+    width: 316.2px;
+    height: 205px;
+    padding-top: 33px;
+}
+.investment {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.investment p {
+    margin-top: 35px;
+    font-size: 22px;
+    
+}
+hr {
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.link123 {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.section5 {
+    display: flex;
+    margin-top: 100px;
+}
+img {
+    width: 630px;
+    height: 500px;
+}
+.s5 {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+    justify-items: center;
+}
+.p1  {
+    padding-top: 23px;
+}
+.p2 {
+    padding-top: 35px;
+}
+.section7 {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.section7 a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    
+}
+.s7 h4 {
+    padding-top: 40px;
+    margin-bottom: 15px; 
+}
+.s7 img {
+    padding-top: 30px;
+    height: 250px;
+    
+}
+.section8 {
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    width: 60%;        /* reduce width to 80% of page */
+    margin: 0 auto;    /* center the section horizontally */
+    
+    
+}
+.section8 img {
+  width: 80%;       /* each image fills its grid cell */
+  height: auto;  
+  padding-top: 40px;    /* keeps original aspect ratio */
+}
+
