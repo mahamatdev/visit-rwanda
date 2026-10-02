@@ -35,6 +35,11 @@
     text-decoration: none;
     color: white;
 }
+video {
+    width: 100%;
+    padding-bottom: 30px;
+    
+}
 .Tourism {
     text-align: center;
     width: 650px;
@@ -81,6 +86,11 @@ img {
     border-radius: 8px;
     cursor: pointer;
 }
+.btn1:hover {
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+}
 .section4 {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -103,6 +113,7 @@ img {
     width: 316.2px;
     height: 205px;
     padding-top: 33px;
+    transition: 0.2s ease;
 }
 .investment {
     text-align: center;
@@ -150,17 +161,19 @@ img {
 }
 .section7 {
     display: grid;
-    grid-template-columns: 25% 25% 50%;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+}
+.section71 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .section7 a {
     text-decoration: none;
     color: black;
-    font-size: 27px;
-    
+    font-size: 27px;  
 }
 .s7 h4 {
     padding-top: 40px;
@@ -169,19 +182,127 @@ img {
 .s7 img {
     padding-top: 30px;
     height: 250px;
-    
+    transition: 0.2s ease;
 }
 .section8 {
     display: grid;
     grid-template-columns: repeat(7 , 1fr);
-    width: 60%;        /* reduce width to 80% of page */
-    margin: 0 auto;    /* center the section horizontally */
-    
-    
+    width: 50%;  
+    margin: 0 auto;       
 }
 .section8 img {
-  width: 80%;       /* each image fills its grid cell */
+  width: 80%;      
   height: auto;  
-  padding-top: 40px;    /* keeps original aspect ratio */
+  padding-top: 40px;    
+}
+.section9 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 110px;
+    text-align: center;
+}
+.section9 a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+.s9 h4 {
+    margin-bottom: 15px; 
+}
+.s9 img {
+    width: 316.2px;
+    height: 205px;
+    padding-top: 33px;
+    transition: 0.2s ease;
+}
+.s9 img:hover, .s4 img:hover, .s7 img:hover, .scddivimg img:hover {
+  filter: brightness(70%); 
+}
+.ftrbtn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin-top: -3px;
+}
+.ftrbtn1 {
+    background-color: rgba(26, 26, 59, 0.929);
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 69px;
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    border-right: 0.001px solid white;
+
+}
+.ftrbtn1:hover {
+    background-color: rgba(49, 49, 89, 0.929);
+}
+.lastftr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 13, 40, 0.929);
+    color: white;
+}
+.frstdiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    align-items: center;
+    
+}
+.frstdivimg img {
+    padding-left: 60px;
+    
+}
+.lastftr {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    justify-content: center;
+    align-items: center;
+}
+.scddiv {
+    display: grid;  
+    grid-template-columns: 65% 35%;        
+    align-items: center;    
+    
+    margin-left: 60px;
+    
+}
+.scddiv a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+.scddiv a:hover {
+    color: rgb(159, 151, 151);
+}
+.scddivlnk {
+    display: flex;       
+    align-items: center;    
+    gap: 25px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.scddivimg {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 10px;
+}
+.scddivimg a img:hover {
+    color: rgb(88, 88, 88);
+    
+}
+.scddivimg a:hover {
+    color: rgb(159, 151, 151);
+}
+a:hover {
+    color: rgb(159, 151, 151);
 }
 
